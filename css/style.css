@@ -35,7 +35,7 @@
     height: 840px;
 }
 
-.main_visual .title {
+.main_visual .slg {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,71 +43,71 @@
     text-align: center;
 }
 
-.main_visual .title h2 {
+.main_visual .slg h2 {
     font-size: 40px;
     color: #fff;
 }
 
-.main_visual .title p {
+.main_visual .slg p {
     font-size: 16px;
     color: #fff;
     margin-top: 16px;
 }
 
-.main_menu .title {
+.main_content .title {
     max-width: 1170px;
     margin: 0 auto;
 }
 
-.main_menu .title h2 {
+.main_content .title h2 {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 16px;
 }
 
-.main_menu .title p {
+.main_content .title p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 40px;
 }
 
-.main_menu .inner {
+.main_content .inner {
     display: flex;
     gap: 30px;
 }
 
-.main_menu .inner .itm p {
+.main_content .inner .itm p {
     margin-top: 16px;
     text-align: center;
 }
 
-.main_news {
+.main_event {
     background: #f9f9f9;
 }
 
-.main_news .title {
+.main_event .title {
     max-width: 1170px;
     margin: 0 auto;
 }
 
-.main_news .title h2 {
+.main_event .title h2 {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 16px;
 }
 
-.main_news .title p {
+.main_event .title p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 40px;
 }
 
-.main_news .inner {
+.main_event .inner {
     display: flex;
     gap: 30px;
 }
 
-.main_news .inner .itm p {
+.main_event .inner .itm p {
     margin-top: 16px;
     text-align: center;
 }
