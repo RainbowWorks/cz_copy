@@ -1,11 +1,14 @@
 #header .hd_wrap {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 #header h1 a img {
     height: 40px;
+}
+
+#header .gnb {
+    margin-left: auto;
 }
 
 #header .gnb>ul {
@@ -27,6 +30,7 @@
 #header .utils {
     display: flex;
     gap: 16px;
+    margin-left: 80px;
 }
 
 .main_visual {
@@ -57,6 +61,7 @@
 .main_content .title {
     max-width: 1170px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .main_content .title h2 {
@@ -68,7 +73,7 @@
 .main_content .title p {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 40px;
+
 }
 
 .main_content .inner {
@@ -76,8 +81,11 @@
     gap: 30px;
 }
 
-.main_content .inner .itm p {
+.main_content .inner .itm strong {
+    display: block;
     margin-top: 16px;
+    font-size: 16px;
+    line-height: 16px;
     text-align: center;
 }
 
@@ -88,6 +96,7 @@
 .main_event .title {
     max-width: 1170px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .main_event .title h2 {
@@ -99,7 +108,7 @@
 .main_event .title p {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 40px;
+
 }
 
 .main_event .inner {
@@ -107,8 +116,11 @@
     gap: 30px;
 }
 
-.main_event .inner .itm p {
+.main_event .inner .itm strong {
+    display: block;
     margin-top: 16px;
+    font-size: 16px;
+    line-height: 16px;
     text-align: center;
 }
 
