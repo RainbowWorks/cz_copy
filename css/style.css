@@ -1,0 +1,117 @@
+#header .hd_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header h1 a img {
+    height: 40px;
+}
+
+#header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+#header .gnb>ul>li>a {
+    display: block;
+    line-height: 120px;
+
+    font-size: 18px;
+}
+
+#header.on .gnb>ul>li>a {
+    line-height: 120px;
+}
+
+#header .utils {
+    display: flex;
+    gap: 16px;
+}
+
+.main_visual {
+    position: relative;
+    background: url(../받은자료/meat-1155132_1920.jpg) no-repeat center center/cover;
+    height: 840px;
+}
+
+.main_visual .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main_visual .title h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.main_visual .title p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.main_menu .title {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main_menu .title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.main_menu .title p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.main_menu .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_menu .inner .itm p {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.main_news {
+    background: #f9f9f9;
+}
+
+.main_news .title {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main_news .title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.main_news .title p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.main_news .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_news .inner .itm p {
+    margin-top: 16px;
+    text-align: center;
+}
+
+#footer {
+    padding: 80px 0;
+}
